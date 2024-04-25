@@ -67,21 +67,21 @@
                         <legend>Alumno</legend>
                         <div class="mb-3">
                             <label for="inputText" class="form-label">Código</label>
-                            <input class="form-control" type="text" placeholder="Código..." aria-label="default input example" name="codigo">
+                            <input class="form-control" type="text" placeholder="Código..." aria-label="default input example" name="codigo" id="codigo">
                             <label for="inputText" class="form-label">Apellidos</label>
-                            <input class="form-control" type="text" placeholder="Apellidos..." aria-label="default input example" name="apellido">
+                            <input class="form-control" type="text" placeholder="Apellidos..." aria-label="default input example" name="apellido" id="apellido">
                             <label for="inputText" class="form-label">Nombres</label>
-                            <input class="form-control" type="text" placeholder="Nombres..." aria-label="default input example" name="nombre">
+                            <input class="form-control" type="text" placeholder="Nombres..." aria-label="default input example" name="nombre" id="nombre">
                             <label for="Sexo">Sexo</label>
-                            <select class="form-select" aria-label="Default select example" name="sexo">
-                                <option selected>Femenino</option>l
-                                <option value="2">Masculino</option>
+                            <select class="form-select" aria-label="Default select example" name="sexo" id="sexo">
+                                <option selected value="f">Femenino</option>l
+                                <option value="m">Masculino</option>
                             </select>
                             <label for="inputText" class="form-label">Fecha de nacimiento</label>
                             <input class="form-control" type="date"  aria-label="default input example">
-                            <input class="form-control" type="text" placeholder="Edad" aria-label="default input example" name="edad">
+                            <input class="form-control" type="text" placeholder="Edad" aria-label="default input example" name="edad" id="edad">
                             <label for="inputText" class="form-label">Especialidad</label>
-                            <input class="form-control" type="text" placeholder="Especialidad..." aria-label="default input example" name="especialidad">
+                            <input class="form-control" type="text" placeholder="Especialidad..." aria-label="default input example" name="especialidad" id="especialidad">
                         </div>
                         <div class="d-block mb-3">
                             <button type="submit" class="btn btn-success btn-lg w-100 mb-3">Guardar</button>
